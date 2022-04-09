@@ -1,0 +1,25 @@
+server:
+  port: 8080
+  address: 0.0.0.0
+  servlet:
+    session:
+      timeout: 3600ms
+
+spring:
+  application:
+    name: ${artifactId}
+
+
+#  jpa:
+#    show-sql: true
+#    generate-ddl: true
+#    hibernate:
+#      ddl-auto: update
+#
+#
+#  datasource:
+#    continue-on-error: true
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/test?useSSL=false
+#    username: root
+#    password: root

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.zxl.sb.cache</groupId>
+    <artifactId>websocket-stomp-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>websocket-stomp-demo</name>
+    <description>Demo project for Spring Boot</description>
+
+    <parent>
+        <groupId>com.zxl.sb.cache</groupId>
+        <artifactId>cache-demo</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <properties>
+        <commons-collections-version>3.2.1</commons-collections-version>
+        <commons-lang3-version>3.3.2</commons-lang3-version>
+    </properties>
+
+
+    <dependencies>
+        <!--支持websocket-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+        </dependency>
+
+        <!-- tool -->
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>${commons-collections-version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3-version}</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
